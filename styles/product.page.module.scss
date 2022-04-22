@@ -1,0 +1,45 @@
+.productPage{
+    margin: 5rem auto 0;
+    width:960px;
+    gap: 2rem;
+    display:flex;
+    align-items: center;
+    color:#64748b;
+   
+    button{
+        border:none;
+        padding: 0.5rem 3rem;
+        border-radius: 2px;
+        background-color: #e11d48;
+        color:#f1f9ff ;
+        font-weight: 600;
+        font-size: 1.125rem;
+        margin: 1rem 0 0;
+    }
+   
+}
+
+ 
+
+.name{
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 4.5rem;
+    letter-spacing: -1.75px;
+    color:#1e293b;
+}
+ 
+
+.price{
+    font-size: 2.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    letter-spacing: -0.75px;
+}
+
+.description{
+    font-size:14px;
+    width:80%;
+    margin-bottom:1rem;
+}
+ 
