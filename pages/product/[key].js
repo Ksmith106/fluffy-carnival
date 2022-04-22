@@ -34,7 +34,7 @@ function ProductPage({ product }) {
 
 export async function getStaticPaths() {
   const res = fetch(
-    "https://shoeshine8k-default-rtdb.firebaseio.com/products.json"
+    "https://kennethsstorefront-default-rtdb.firebaseio.com/coffee.json"
   );
   const products = await (await res).json();
   const paths = Object.keys(products).map((key) => ({ params: { key } }));

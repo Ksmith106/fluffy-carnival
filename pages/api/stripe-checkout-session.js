@@ -7,14 +7,14 @@ export default async function handler(req, res) {
   getProductData()
   if (req.method === 'POST') {
     try {
-      // Create Checkout Sessions from body params.
+
       const session = await stripe.checkout.sessions.create({
         line_items: [
           {
-            name:"some type of shoe",
-            description:"best fucking shoes ever",
-            images:['https://firebasestorage.googleapis.com/v0/b/shoeshine8k.appspot.com/o/images%2Fproducts%2F8k4.jpg?alt=media&token=62ea4115-b17a-40a0-9baf-b907009341d5'],
-            amount: "1000",
+            name:"The Best dam coffee selection in the world",
+            description:"best selection of coffee ever",
+            images:['https://firebasestorage.googleapis.com/kennethsstorefront.appspot.com/o/images1850.jpeg?alt=1850coffee'],
+            amount: "50",
             currency:"CAD",
             quantity:1
 
